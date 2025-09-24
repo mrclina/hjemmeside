@@ -17,6 +17,7 @@ export default function Home() {
         Og her er min instagram
       </a>
       <h1 className="flex justify-center mb-40">Yaaaay</h1>
+      <div className="flex justify-center"><div className="flex justify-center overflow-hidden rounded-full border h-100 w-100"><img src="/IMG_2711.JPG" className="max-w-100"/></div></div>
       <a
         href="https://echo.uib.no"
         className="flex justify-start p-10 text-2xl"
