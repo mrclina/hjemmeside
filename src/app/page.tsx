@@ -1,3 +1,4 @@
+
 export default function Home() {
   return (
     <div>
@@ -5,19 +6,30 @@ export default function Home() {
         Velkommen
       </h1>
       <p className="text-3xl text-white m-7 flex justify-center mb-9">
-        Til min første nettside
+        Til nettsiden min
       </p>
-      <p className="text-2xl text-pink-400 flex justify-center font-serif mb-10 border-2">
+      <div className="flex justify-center"><p className="text-2xl text-white text-center w-fit font-serif mb-30 p-8 border-2">
         Mitt navn er Marcelina
-      </p>
-      <a
+      </p></div>
+      <div className='m-20 font-bold italic font-serif mb-1'><p>Mine sosiale medier:</p></div>
+      <div>
+           <a
         href="https://www.instagram.com/mrclina/"
-        className="flex justify-center font-bold italic font-serif mb-30"
+        className="m-20 font-bold italic mb-3"
       >
-        Og her er min instagram
+        - Instagram
       </a>
-      <h1 className="flex justify-center mb-40">Yaaaay</h1>
-      <div className="flex justify-center"><div className="flex justify-center overflow-hidden rounded-full border h-100 w-100"><img src="/IMG_2711.JPG" className="max-w-100"/></div></div>
+      </div>
+      <div>
+        <a
+        href="https://echo.uib.no/for-studenter/gruppe/webkom"
+        className="m-20 font-bold italic mb-2"
+        >
+          - Webkom sin side
+        </a>
+        </div>
+      <div className="flex justify-center p-100"><div className="flex justify-center overflow-hidden rounded-full border h-100 w-100"><img src="/IMG_2711.JPG" className="max-w-150"/></div></div>
+      <h1 className="flex justify-center">Jadda</h1>
       <a
         href="https://echo.uib.no"
         className="flex justify-start p-10 text-2xl"
