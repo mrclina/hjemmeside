@@ -12,10 +12,10 @@ export default function SnowMinimal() {
     if (!ctx) return;
 
     const SPEED_Y = 0.3;
-    const DRIFT_X = 0.25;
+    const DRIFT_X = 0.4;
     const fancyRatio = 0.16;
-    const dotSize = 1.8;
-    const flakeSpriteSize = 20;
+    const dotSize = 1.5;
+    const flakeSpriteSize = 10;
 
     function randomInt(min: number, max: number) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
