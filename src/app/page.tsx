@@ -1,7 +1,10 @@
+import SnowMinimal from "@/components/christmas-decor";
+
 
 export default function Home() {
   return (
     <div>
+      <SnowMinimal />
       <h1 className="text-4xl text-shadow-white m-6 flex justify-center font-sans">
         Velkommen
       </h1>
