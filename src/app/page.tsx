@@ -20,7 +20,7 @@ export default function Home() {
           </h1>
 
           <p className="text-xl text-white font-serif mb-6">
-            Datasikkerhet student
+            og jeg studerer datasikkerhet
           </p>
 
           <p className="text-xl text-white w-fit font-serif p-4 border-2">
