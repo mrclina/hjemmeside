@@ -1,19 +1,44 @@
-import SnowMinimal from "@/components/christmas-decor";
-
+// import SnowMinimal from "@/components/christmas-decor";
+import HeartsMinimal from "@/components/valentines";
 
 export default function Home() {
   return (
     <div>
-      <SnowMinimal />
-      <h1 className="text-4xl text-shadow-white m-6 flex justify-center font-sans">
-        Velkommen
-      </h1>
-      <p className="text-3xl text-white m-7 flex justify-center mb-9">
-        Til nettsiden min
-      </p>
-      <div className="flex justify-center"><p className="text-2xl text-white text-center w-fit font-serif mb-30 p-8 border-2">
-        Mitt navn er Marcelina
-      </p></div>
+      <HeartsMinimal />
+
+      {/* HERO-SEKSJON */}
+      <div className="flex items-start gap-24 px-20 mt-32">
+        
+        {/* TEKST */}
+        <div>
+          <p className="text-2xl text-shadow-white font-serif mb-4">
+            Hei, mitt navn er
+          </p>
+
+          <h1 className="text-4xl text-shadow-white font-serif mb-2">
+            Marcelina Dylewska
+          </h1>
+
+          <p className="text-xl text-white font-serif mb-6">
+            Datasikkerhet student
+          </p>
+
+          <p className="text-xl text-white w-fit font-serif p-4 border-2">
+            Ved Universitetet i Bergen
+          </p>
+        </div>
+
+        {/* BILDE */}
+        <div className="flex justify-center overflow-hidden rounded-full border h-96 w-96">
+          <img
+            src="/IMG_2711.JPG"
+            alt="Profilbilde"
+            className="object-cover w-full h-full"
+          />
+        </div>
+
+      </div>
+
       <div className='m-20 font-bold italic font-serif mb-1'><p>Mine sosiale medier:</p></div>
       <div>
            <a
@@ -31,7 +56,6 @@ export default function Home() {
           - Webkom sin side
         </a>
         </div>
-      <div className="flex justify-center p-100"><div className="flex justify-center overflow-hidden rounded-full border h-100 w-100"><img src="/IMG_2711.JPG" className="max-w-150"/></div></div>
       <h1 className="flex justify-center">Jadda</h1>
       <a
         href="https://echo.uib.no"
